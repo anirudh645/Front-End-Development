@@ -4,3 +4,6 @@ From now on you don't need to create your own codes for the front-end-lab in our
 
 ##Always change the name of the files after you have downloaded to avoid getting caught
 ##Check for name is the code like in MyBlog.html change the name immediately after you have downloaded
+
+#######  Note   #############:
+Web workers will not run on any browser. you have to use web server from eclipse since we are familiar with it.
