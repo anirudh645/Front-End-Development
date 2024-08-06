@@ -5,14 +5,14 @@ From now on you don't need to create your own codes for the front-end-lab in our
 ##Always change the name of the files after you have downloaded to avoid getting caught ##Check for name is the code like in MyBlog.html change the name immediately after you have downloaded
 
 Unit-1:
-    HTML-5:
-        new Semantic tags
-        multimedia elements
-        graphic elements --(svg, canvas)
-        web storage
-        web workers
-        geoloacations
-        drag and drop
+HTML-5:
+--new Semantic tags
+--multimedia elements
+--graphic elements --(svg, canvas)
+--web storage
+--web workers
+--geoloacations
+--drag and drop
 
 
 ####### Note #############: 
