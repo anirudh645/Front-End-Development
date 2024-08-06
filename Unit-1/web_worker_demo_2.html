@@ -5,8 +5,27 @@
     <body>
         <button onclick="Start()">Start Worker</button>
         <button onclick="Stop()">Stop Worker</button>
+        <p>Counter is incremented to: <output id="result"/></p>
         <script>
-            
+            var w;
+            function Start() {
+                if (typeof(worker)!== "undefined"){
+                    if (typeof(w)!== "defined"){
+                        w = new worker("webworker.js");
+                        w.onmessage = function(event) {
+                            document.getElementById("result").innerText = event.data;
+                        };
+                    } else {
+                        alert("worker exists");
+                    }
+                } else {
+                    alert("Worker is not supported by your browser");
+                }
+            }
+            function Stop() {
+                w.terminate();
+                w = "undefined";
+            }
         </script>
     </body>
 </html>
