@@ -1,0 +1,17 @@
+<html>
+<body>
+    <h1>Welcome to js functions</h1>
+    <script>
+        function big(a,b){
+            if(a>b)
+                return a;
+            else
+                return b;
+        }
+        var large = big;
+        var max = big(12, 9);
+        document.write("First function(fucntion call):"+max);
+        document.write("Using function reference: "+large(15,95));
+    </script>
+</body>
+</html>
