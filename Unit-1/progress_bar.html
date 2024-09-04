@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Progress bar</title>
+</head>
+<body>
+    <p>This is an example about how progress bar works</p>
+    <button onclick="updateProgress()">Update progress</button>
+    <progress id="myBar" value="50" max="100"></progress>
+    <p id="p1">Task in progress--------50% completed</p>
+    <script>
+        function updateProgress(){
+            var pro = document.getElementById("myBar");
+            var p = document.getElementById("p1");
+            if (pro.value < pro.max){
+                pro.value += 10;
+                var per = (pro.value / pro.max)*100;
+                p.textContent = "Task in progress--------" + per + "% completed";
+            } else {
+                p.textContent = "Task completed";
+            }
+        }
+    </script>
+</body>
+</html>
