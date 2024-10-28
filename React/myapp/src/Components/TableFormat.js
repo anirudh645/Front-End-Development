@@ -24,4 +24,4 @@ class TableFormat extends Component {
             );
     }
 }
-    export default TableFormat;
+export default TableFormat;
