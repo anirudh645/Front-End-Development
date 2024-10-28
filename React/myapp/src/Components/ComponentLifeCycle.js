@@ -6,7 +6,10 @@ export default class ComponentLifeCycle extends React.Component {
     }
     render() {
         return(
+            <div>
+            <h1>ComponentLifeCycle</h1>
             <button onClick={this.handleCount}>Count-{this.state.count}</button>
+            </div>
         );
     }
     handleCount=()=>{

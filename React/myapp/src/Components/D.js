@@ -3,8 +3,8 @@ export default class D extends Component{
     render(){
         return(
             <div>
-                <h1>Hello</h1>
-                <p>{this.props.name}</p>
+                <h1>A-B-C-D</h1>
+                <h1>{this.props.name}</h1>
             </div>
         )
     }

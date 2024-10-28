@@ -6,7 +6,11 @@ export default class TitleChange extends React.Component {
     }
     render() {
         return(
-            <button onClick={this.handleCount}>Count-{this.state.count}</button>
+            <div>
+                <h1>Title Change</h1>
+                <button onClick={this.handleCount}>Count-{this.state.count}</button>
+                
+            </div>
         );
     }
     handleCount=()=>{

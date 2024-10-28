@@ -4,7 +4,7 @@ class C extends React.Component {
     render(){
         return(
             <div>
-                <D/>
+                <D name = "VVIT"/>
             </div>
         );
     }

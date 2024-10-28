@@ -7,8 +7,10 @@ class Child extends Component {
     
     render(){
         return(
+            <div>
+                <h1>Parent-Child</h1>
                 <button onClick={()=>this.setState({flag: !(this.state.flag)})}>{this.state.flag ? "true" : "false"}</button>
-
+            </div>
         );
     }
     componentDidUpdate(){

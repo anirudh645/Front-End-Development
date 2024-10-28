@@ -7,7 +7,7 @@ class B extends React.Component {
     render() {
         return(
             <div>
-                <p>hell{this.props.name}</p>
+                <C/>
             </div>
         )
     }

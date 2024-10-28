@@ -1,6 +1,6 @@
-import React from "react";
-import {UserContext} from "./Component/UserContext";
-import {UserConsumer} from "./Component/UserContext";
+import React,{Component} from "react";
+import {UserContext} from "./UserContext";
+import {UserConsumer} from "./UserContext";
 class ConsumerContext extends Component{
     render(){
         return(
@@ -9,13 +9,15 @@ class ConsumerContext extends Component{
                     (props)=>{
                         return(
                         <div>
+                            <h1>Provifer-Consumer Context</h1>
                             <h1>{props}</h1>
                         </div>
                         );
                     }
                 }
             </UserConsumer>
-        )
+            
+        );
     }
 }
 export default ConsumerContext;
